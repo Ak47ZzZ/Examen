@@ -1,0 +1,63 @@
+html{
+    font-size: 62.5%;
+    box-sizing:border-box
+
+    *, *:before, *:afoter {
+        box-sizing: inherit;}
+        
+
+}
+body{
+    text-align: center;
+    background-color: #2e2d2d;
+}
+.titulo{
+    color: #fff;
+    font-size: 2rem;
+}
+.cabeza{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.uno{
+    margin-right: 10rem;
+    font-size: 1.2rem;
+}
+.dos{
+    margin-left: 8rem;
+    color: rgb(255, 255, 255, 0.8);
+}
+.cabeza span{
+    font-weight: normal;
+    color: rgb(255, 255, 255, 0.8);
+}
+.comienzo{
+    background-color: rgb(27, 2, 56);
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 2rem 2rem 2rem 2rem;
+    height: 15rem;
+}
+.caja{
+    background-color: #fff;
+    margin: 0 auto;
+    display: block;
+    max-width: 50rem;
+    padding: 2rem;
+    
+}
+.caja h2{
+    color: rgb(27, 2, 56);;
+}
+.numeros{
+    border-color: rgb(7, 7, 7);
+    border-style: inset;
+    border-radius: 60%;
+    width: 2rem;
+    margin: 0 auto;
+    padding: 0rem 0.5rem;
+}
+.boton{
+    background-color: rgb(20, 131, 20);
+}
